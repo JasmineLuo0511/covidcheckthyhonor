@@ -106,7 +106,7 @@ UsersByDevice.propTypes = {
 };
 
 UsersByDevice.defaultProps = {
-  title: "Users by device",
+  title: "Students/Staff On Campus Percentage",
   chartData: {
     datasets: [
       {
@@ -119,7 +119,7 @@ UsersByDevice.defaultProps = {
         ]
       }
     ],
-    labels: ["Desktop", "Tablet", "Mobile"]
+    labels: ["Student", "Staff", "Others"]
   }
 };
 

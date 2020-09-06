@@ -14,7 +14,7 @@ const TemperatureHistory = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
     <Row noGutters className="page-header py-4">
-      <PageTitle title="Blog Overview" subtitle="Dashboard" className="text-sm-left mb-3" />
+      <PageTitle title="Temperature Tracking" subtitle="Screening" className="text-sm-left mb-3" />
     </Row>
 
     {/* Small Stats Blocks */}
@@ -26,25 +26,16 @@ const TemperatureHistory = ({ smallStats }) => (
         <UsersOverview />
       </Col>
 
-      {/* Users by Device */}
+      {/* People on Campus */}
       <Col lg="4" md="6" sm="12" className="mb-4">
         <UsersByDevice />
       </Col>
 
-      {/* New Draft */}
-      <Col lg="4" md="6" sm="12" className="mb-4">
-        <NewDraft />
-      </Col>
+    
 
-      {/* Discussions */}
-      <Col lg="5" md="12" sm="12" className="mb-4">
-        <Discussions />
-      </Col>
+  
 
-      {/* Top Referrals */}
-      <Col lg="3" md="12" sm="12" className="mb-4">
-        <TopReferrals />
-      </Col>
+  
     </Row>
   </Container>
 );
