@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+  "short_name": "CheckThyHonor",
+  "name": "CheckThyHonor COVID Temperature Monitor System",
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+>>>>>>> 31c0a6311775f42aba305c042d7465aca98e8001
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+>>>>>>> 31c0a6311775f42aba305c042d7465aca98e8001
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
